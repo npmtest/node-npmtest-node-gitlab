@@ -1,6 +1,6 @@
 # npmtest-node-gitlab
 
-#### test coverage for  [node-gitlab (v1.6.0)](https://github.com/repo-utils/gitlab)  [![npm package](https://img.shields.io/npm/v/npmtest-node-gitlab.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-gitlab) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-gitlab.svg)](https://travis-ci.org/npmtest/node-npmtest-node-gitlab)
+#### basic test coverage for  [node-gitlab (v1.6.0)](https://github.com/repo-utils/gitlab)  [![npm package](https://img.shields.io/npm/v/npmtest-node-gitlab.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-gitlab) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-gitlab.svg)](https://travis-ci.org/npmtest/node-npmtest-node-gitlab)
 
 #### Gitlab API nodejs client.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-gitlab/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-node-gitlab/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-gitlab/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-gitlab/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-gitlab/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-gitlab/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-node-gitlab/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-node-gitlab/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-gitlab/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-gitlab/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-node-gitlab/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-gitlab/build/coverage.html/index.html)
 
@@ -132,7 +132,8 @@
         "test-cov": "node --harmony node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -r co-mocha -t 40000 test/*.test.js",
         "test-travis": "node --harmony node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- -r co-mocha -t 40000 test/*.test.js"
     },
-    "version": "1.6.0"
+    "version": "1.6.0",
+    "bin": {}
 }
 ```
 
